@@ -1,0 +1,51 @@
+Project Halyard
+===============
+
+Sources & uses ($mm)
+                                         $mm
+--------------------------------------------
+Sources: Term Loan B                  375.0 
+Sources: Senior Notes                 125.0 
+Sources: Sponsor equity               552.5 
+Uses: Purchase enterprise value     1,000.0 
+Uses: Transaction fees                 20.0 
+Uses: Financing fees                   12.5 
+Uses: Cash to balance sheet            20.0 
+
+Projections ($mm)
+                                          Y0        Y1        Y2        Y3        Y4        Y5
+----------------------------------------------------------------------------------------------
+Revenue                               500.0     530.0     561.8     589.9     619.4     644.2 
+EBITDA                                100.0     108.6     118.0     126.8     136.3     141.7 
+Cash interest                           0.0      43.7      40.9      37.3      33.0      27.9 
+Taxes                                   0.0      12.5      15.3      18.2      21.5      24.0 
+Free cash flow                          0.0      33.6      41.8      50.8      60.2      68.0 
+Mandatory repayment                     0.0       3.8       3.8       3.8       3.8       3.8 
+Optional prepayment                     0.0      29.8      38.0      47.0      56.5      64.3 
+Cash                                   20.0      20.0      20.0      20.0      20.0      20.0 
+Total debt                            500.0     466.4     424.7     373.9     313.7     245.6 
+
+Credit statistics
+                                          Y0        Y1        Y2        Y3        Y4        Y5
+----------------------------------------------------------------------------------------------
+Total debt / EBITDA                     5.0x      4.3x      3.6x      2.9x      2.3x      1.7x
+Net debt / EBITDA                       4.8x      4.1x      3.4x      2.8x      2.2x      1.6x
+EBITDA / cash interest                            2.5x      2.9x      3.4x      4.1x      5.1x
+(EBITDA - capex) / cash interest                  2.1x      2.5x      2.9x      3.6x      4.4x
+Cumulative debt paydown %                 0%        7%       15%       25%       37%       51%
+
+Returns
+  Entry: 10.0x LTM EBITDA, 5.0x leverage, 52% equity
+  Exit (Y5): 10.0x, EV 1,417.2, net debt 225.6
+  Sponsor equity 552.5 -> 1,177.3
+  MOIC 2.13x   IRR 16.3%
+
+Value creation ($mm)
+  EBITDA growth             417.2      67%
+  Multiple expansion          0.0       0%
+  Debt paydown              254.4      41%
+  Fees and expenses         (46.7)     -7%
+  Total                     624.8 
+
+Excel model written to examples/project_halyard.xlsx
+Charts written to docs/images/
