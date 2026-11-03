@@ -49,9 +49,7 @@ The full printout (sources & uses, projections, credit stats) is in [`examples/p
 
 ## The Excel model
 
-![Excel model](docs/images/excel_model.png)
-
-Every number on the Model, Sources & Uses and Returns sheets is a formula that traces back to the Assumptions sheet. If you change the entry multiple in Excel, the debt sizing, interest, sweep and IRR all update. The Returns sheet includes a check row confirming that the value creation bridge sums to the equity gain.
+The generated workbook is [`examples/project_halyard.xlsx`](examples/project_halyard.xlsx). Every number on the Model, Sources & Uses and Returns sheets is a formula that traces back to the Assumptions sheet. If you change the entry multiple in Excel, the debt sizing, interest, sweep and IRR all update. The Returns sheet includes a check row confirming that the value creation bridge sums to the equity gain.
 
 ## Debt paydown
 
