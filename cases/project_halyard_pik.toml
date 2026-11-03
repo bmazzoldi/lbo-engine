@@ -1,0 +1,50 @@
+# Same business, more aggressive structure: adds a HoldCo PIK note and stretches to 6.0x.
+
+name = "Project Halyard (HoldCo PIK)"
+entry_multiple = 10.0
+exit_multiple = 10.0
+exit_year = 5
+transaction_fee_pct = 0.02
+financing_fee_pct = 0.025
+financing_fee_amort_years = 7
+exit_fee_pct = 0.01
+min_cash = 20.0
+sweep_pct = 1.0
+
+[operating]
+ltm_revenue = 500.0
+ltm_ebitda_margin = 0.20
+revenue_growth = [0.06, 0.06, 0.05, 0.05, 0.04]
+ebitda_margin  = [0.205, 0.21, 0.215, 0.22, 0.22]
+da_pct_revenue = 0.025
+capex_pct_revenue = 0.03
+nwc_pct_revenue = 0.10
+tax_rate = 0.25
+
+[revolver]
+commitment = 75.0
+rate = 0.080
+undrawn_fee = 0.00375
+
+[[tranche]]
+name = "Term Loan B"
+multiple = 3.75
+cash_rate = 0.085
+amortization = 0.01
+sweep = true
+priority = 1
+
+[[tranche]]
+name = "Senior Notes"
+multiple = 1.25
+cash_rate = 0.0925
+sweep = false
+priority = 2
+
+[[tranche]]
+name = "HoldCo PIK"
+multiple = 1.0
+cash_rate = 0.0
+pik_rate = 0.12
+sweep = false
+priority = 3
